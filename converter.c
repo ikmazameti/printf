@@ -13,7 +13,7 @@ char *convert(unsigned long int num, int base, int lcase)
 	static char buffer[50];
 	char *ptr;
 
-	rep =(lcase)
+	rep = (lcase)
 		? "0123456789abcdef"
 		: "0123456789ABCDEF";
 	ptr = &buffer[49];

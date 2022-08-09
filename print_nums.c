@@ -48,7 +48,7 @@ int print_unsigned(va_list l, flags_t *f)
 void print_number(int n)
 {
 	unsigned int n1;
-	
+
 	if (n < 0)
 	{
 		_putchar('-');
