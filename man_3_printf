@@ -99,4 +99,5 @@ base.
 	.SH BUGS
 	_printf does not take care of length and precision modifiers yet. For example, _printf(\(dq%hx\(dq) will not produce the same output as the call to the standard library printf.
 	.SH AUTHORS
-	Mawuli Azameti and Doe Samuel, Cohort 8.
+	Mawuli Azameti (ikmazameti@gmail.com)
+	| and Doe Samuel, Cohort 8.
