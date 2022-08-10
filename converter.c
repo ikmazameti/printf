@@ -4,16 +4,16 @@
   *convert - converts a number and base into string
   * @num: input number
   * @base: input base
-  * @lcase: flags if hexadecimal values need to be lowercase
+  * @lowercase: flags if hexadecimal values need to be lowercase
   * Return: result string
   */
-char *convert(unsigned long int num, int base, int lcase)
+char *convert(unsigned long int num, int base, int lowercase)
 {
 	static char *rep;
 	static char buffer[50];
 	char *ptr;
 
-	rep = (lcase)
+	rep = (lowercase)
 		? "0123456789abcdef"
 		: "0123456789ABCDEF";
 	ptr = &buffer[49];
